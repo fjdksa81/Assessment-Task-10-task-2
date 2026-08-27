@@ -24,11 +24,14 @@ After thoughtful evaluation I have decided to pursue the not-AI, AI help app. I 
 CHOICE: Not-AI AI help app.
 
 ## **Functional Requirements**
-
 **Functional Requirements**
-
+- Provide information on AI
+- "Act" like an AI to provide information to users
+- Look similar to an AI in order to properly attract AI users.
 **Nonfunctional Requirements**
-
+- Run without a large load on the system running it
+- UI needs to be intuative to any users, especially mirroring that of AI sites
+- UX needs to make sense from the homepage to the various subpages, in terms of button locations and areas.
 # **Researching and Planning**
 ## **Explore Existing Ideas**
 Research at least three websites / web applications which are used to influence people. Evaluate each with a PMI (Plus, Minus, Implications) table.
