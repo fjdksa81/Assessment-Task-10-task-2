@@ -1,0 +1,31 @@
+
+@import url('http://fonts.googleapis.com/css?family=Encode Sans Expanded'); 
+/* Stack overflow said this would either kill my loading times or be the only way to import fonts, still isn't working as of 7/09 */
+
+
+html {
+    background-color: hotpink;
+}
+
+body {
+    background-color: hotpink;
+    text-align: left;
+    font-family: 'Encode Sans Expanded';
+
+}
+
+h1 {
+    color: rgb(252, 173, 173);
+    text-align: center;
+    font-family: 'Encode Sans Expanded';
+}
+
+h2 {
+    color: blanchedalmond;
+    text-align: centre;
+}
+
+img {
+    width: 110%;
+    height: 110%;
+}
