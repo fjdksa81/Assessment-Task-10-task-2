@@ -1,23 +1,51 @@
 
-@import url('http://fonts.googleapis.com/css?family=Encode Sans Expanded'); 
-/* Stack overflow said this would either kill my loading times or be the only way to import fonts, still isn't working as of 7/09 */
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200;300;400;500;700&display=swap');
+/* Stack overflow said this would either kill my loading times or be the only way to import fonts, now working hopefully 12/09 */
 
+.encode-sans-expanded-extralight {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.encode-sans-expanded-light {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.encode-sans-expanded-regular {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.encode-sans-expanded-medium {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.encode-sans-expanded-bold {
+  font-family: "Encode Sans Expanded", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* These are all basically naming the various fonts, Serif is used within them as a backup incase something about the encode Sans doesn't work. */
 
 html {
     background-color: hotpink;
 }
 
 body {
-    background-color: hotpink;
+    background-color: green;
     text-align: left;
-    font-family: 'Encode Sans Expanded';
-
 }
 
 h1 {
     color: rgb(252, 173, 173);
     text-align: center;
-    font-family: 'Encode Sans Expanded';
 }
 
 h2 {
