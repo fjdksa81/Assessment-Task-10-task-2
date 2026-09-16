@@ -69,6 +69,38 @@ ul li a:hover {
 /* will also add that I do not know why the curly brackets are purple, that is a mystery to me, something about them being nested probably. */
 }
 
+.footerlist {
+/* this is the same as the other header bar, just with equal spacing to be a footer. - also made text bigger because I don't like how small it is  */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5c1a1b77;
+}
+/* Gives color to the world, rmeoves list style and the margin and padding from the list, ensures no overflow out of the visible page */
+ul li {
+    justify-content: space-evenly;
+    /* thank a stack overflow post from a total of 7 days before i was born for this gem if it works */
+}
+ul li a {
+  display: block;
+  color: #F6EFEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 1.5vw
+}
+/* describes the way the buttons/text looks, how pretty it does in fact look */
+ul li a:hover {
+  background-color: #5c1a1bc8;
+}
+/* changes the background colour when the buttons are hovered over, mostly cause i think its pretty cool look. */
+/* This is the end of all the stull from W3 schools which I very unashamedly took, I do understand it all, but retyping it slightly differently would have been a complete waste of time. */
+/* will also add that I do not know why the curly brackets are purple, that is a mystery to me, something about them being nested probably. */
+}
+
+
 /* I don't know why I'm doing classes before the other .css but I feel like its probably the right way to do it. */
 
 .thebox {
