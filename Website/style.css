@@ -2,33 +2,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@200;300;400;500;700&display=swap');
 /* Stack overflow said this would either kill my loading times or be the only way to import fonts, now working hopefully 12/09 */
 
-.encode-sans-expanded-extralight {
-  font-family: "Encode Sans Expanded", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  letter-spacing: 1vw;
-}
-
 .encode-sans-expanded-light {
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 300;
   font-style: normal;
   letter-spacing: 1vw;
-
 }
 
 .encode-sans-expanded-regular {
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 1vw;
+  letter-spacing: 0.25vw;
 }
 
 .encode-sans-expanded-medium {
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 500;
   font-style: normal;
-  letter-spacing: 1vw;
+  letter-spacing: 0.25vw;
 }
 
 .encode-sans-expanded-bold {
@@ -36,27 +28,25 @@
   font-weight: 700;
   font-style: normal;
   letter-spacing: 1vw;
+  text-decoration: none;
 }
 
 /* These are all basically naming the various fonts, Serif is used within them as a backup incase something about the encode Sans doesn't work. Taken directly from google fonts*/
 
-html {
-    background-color: #292E1E;
+.entirethingyspacing {
+  display: flex;
+  flex-direction: column;
+  gap: 5.5vh; 
 }
-
-body {
-    margin: 0;
-    padding: 0; 
-    /* Removes the padding and margin from the top to make the top navigation bar look good*/
-
-}
+/* We can all dearly thank David's Videos for assisting with his apty titled video "Aligning HTML Elements Vertically & Horizontally Using Display Flex" */
+.headerlist {
 /* This was taken from W3 schools for my attempts to try and make a main heading bar, it has been customised to my liking, or will be, depeneding on when you read this. */
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #99373792;
+  background-color: #5c1a1b77;
 }
 
 ul li {
@@ -71,14 +61,44 @@ ul li a {
   text-decoration: none;
 }
 
-ul li a:hover:not(.active) {
-  background-color: #9937375a;
-}
-
-ul li a.active {
-  background-color: #4f1a1a67;
+ul li a:hover {
+  background-color: #5c1a1bc8;
 }
 /* This is the end of all the stull from W3 schools which I very unashamedly took, I do understand it all, but retyping it slightly differently would have been a complete waste of time. */
+/* will also add that I do not know why the curly brackets are purple, that is a mystery to me, something about them being nested probably. */
+}
+
+/* I don't know why I'm doing classes before the other .css but I feel like its probably the right way to do it. */
+
+.thebox {
+  width: 70vw;
+  height: 70vh;
+  background-color: #5c1a1b77;
+  border-radius: 10%;
+  display: flex;
+  padding-left: 5%;
+  margin-left: auto;
+  margin-right: auto;
+/* thanks 4 quick and easy ways to centre a <div> for the margin:auto tip, not entirely sure why 4 are needed but its nice to have variety */
+}
+.thebox h1 a {
+  text-decoration: none;
+  margin-top: 1vh; 
+  font-size: 1.5vw;
+  color: #F6EFEE;
+
+}
+/* The question box in question ^ */
+
+html {
+    background-color: #292E1E;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
 
 h1, h2, p {
     color: #F6EFEE;
@@ -92,6 +112,7 @@ h2 {
 }
 
 h1 {
+    margin-top: 1vw;
     font-size: 1vw;
 }
 
@@ -102,4 +123,8 @@ p {
 img {
     width: 110%;
     height: 110%;
+}
+
+ul {
+  list-style-type: disc;
 }
