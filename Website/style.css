@@ -6,30 +6,36 @@
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 200;
   font-style: normal;
+  letter-spacing: 1vw;
 }
 
 .encode-sans-expanded-light {
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 300;
   font-style: normal;
+  letter-spacing: 1vw;
+
 }
 
 .encode-sans-expanded-regular {
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 400;
   font-style: normal;
+  letter-spacing: 1vw;
 }
 
 .encode-sans-expanded-medium {
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 500;
   font-style: normal;
+  letter-spacing: 1vw;
 }
 
 .encode-sans-expanded-bold {
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 700;
   font-style: normal;
+  letter-spacing: 1vw;
 }
 
 /* These are all basically naming the various fonts, Serif is used within them as a backup incase something about the encode Sans doesn't work. Taken directly from google fonts*/
@@ -39,18 +45,58 @@ html {
 }
 
 body {
+    margin: 0;
+    padding: 0; 
+    /* Removes the padding and margin from the top to make the top navigation bar look good*/
+
+}
+/* This was taken from W3 schools for my attempts to try and make a main heading bar, it has been customised to my liking, or will be, depeneding on when you read this. */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #292E1E;
+}
+
+ul li {
+  float: right;
+}
+
+ul li a {
+  display: block;
+  color: #F6EFEE;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul li a:hover:not(.active) {
+  background-color: #993737;
+}
+
+ul li a.active {
+  background-color: #4F1A1A;
+}
+/* This is the end of all the stull from W3 schools which I very unashamedly took, I do understand it all, but retyping it slightly differently would have been a complete waste of time. */
+
+h1, h2, p {
     color: #F6EFEE;
     text-align: left;
+}
+/* Reminder to self to use H2 for the navigation bar, H1 for large text and p for small text */
+
+h2 {
+    margin: 10px;
+    font-size: 2vw;
 }
 
 h1 {
-    color: #F6EFEE;
-    text-align: left;
+    font-size: 1vw;
 }
 
-h2 {
-    color: #F6EFEE;
-    text-align: left;
+p {
+    font-size: 0.5vw;
 }
 
 img {
