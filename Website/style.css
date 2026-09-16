@@ -56,7 +56,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #292E1E;
+  background-color: #99373792;
 }
 
 ul li {
@@ -72,11 +72,11 @@ ul li a {
 }
 
 ul li a:hover:not(.active) {
-  background-color: #993737;
+  background-color: #9937375a;
 }
 
 ul li a.active {
-  background-color: #4F1A1A;
+  background-color: #4f1a1a67;
 }
 /* This is the end of all the stull from W3 schools which I very unashamedly took, I do understand it all, but retyping it slightly differently would have been a complete waste of time. */
 
