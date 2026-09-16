@@ -32,25 +32,25 @@
   font-style: normal;
 }
 
-/* These are all basically naming the various fonts, Serif is used within them as a backup incase something about the encode Sans doesn't work. */
+/* These are all basically naming the various fonts, Serif is used within them as a backup incase something about the encode Sans doesn't work. Taken directly from google fonts*/
 
 html {
-    background-color: hotpink;
+    background-color: #292E1E;
 }
 
 body {
-    background-color: green;
+    color: #F6EFEE;
     text-align: left;
 }
 
 h1 {
-    color: rgb(252, 173, 173);
-    text-align: center;
+    color: #F6EFEE;
+    text-align: left;
 }
 
 h2 {
-    color: blanchedalmond;
-    text-align: centre;
+    color: #F6EFEE;
+    text-align: left;
 }
 
 img {
