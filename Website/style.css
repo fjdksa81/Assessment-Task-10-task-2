@@ -48,11 +48,11 @@ ul {
   overflow: hidden;
   background-color: #5c1a1b77;
 }
-
+/* Gives color to the world, rmeoves list style and the margin and padding from the list, ensures no overflow out of the visible page */
 ul li {
   float: right;
 }
-
+/* Makes the buttons move to the right of the screen */
 ul li a {
   display: block;
   color: #F6EFEE;
@@ -60,10 +60,11 @@ ul li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/* describes the way the buttons/text looks, how pretty it does in fact look */
 ul li a:hover {
   background-color: #5c1a1bc8;
 }
+/* changes the background colour when the buttons are hovered over, mostly cause i think its pretty cool look. */
 /* This is the end of all the stull from W3 schools which I very unashamedly took, I do understand it all, but retyping it slightly differently would have been a complete waste of time. */
 /* will also add that I do not know why the curly brackets are purple, that is a mystery to me, something about them being nested probably. */
 }
@@ -88,17 +89,17 @@ ul li a:hover {
   color: #F6EFEE;
 
 }
-/* The question box in question ^ */
+/* The question box stuff ^ */
 
 html {
     background-color: #292E1E;
 }
-
+/* its a background color, dunno what else to tell you. */
 body {
   margin: 0;
   padding: 0;
 }
-
+/*Makes the header hit the very top without an ugly gap, thanks relatively unknown stack overflow post from a number of years ago. */
 
 h1, h2, p {
     color: #F6EFEE;
@@ -125,6 +126,4 @@ img {
     height: 110%;
 }
 
-ul {
-  list-style-type: disc;
-}
+/* I will be dearly dissappointed if you cannot understand the purpose of any of the various size and colour definitions without a comment explaining them, they are all self explaintory (hopefully) */
