@@ -13,7 +13,6 @@
   font-family: "Encode Sans Expanded", sans-serif;
   font-weight: 400;
   font-style: normal;
-  letter-spacing: 0.25vw;
 }
 
 .encode-sans-expanded-medium {
@@ -129,7 +128,6 @@ html {
 /* its a background color, dunno what else to tell you. */
 body {
   margin: 0;
-  padding: 0;
 }
 /*Makes the header hit the very top without an ugly gap, thanks relatively unknown stack overflow post from a number of years ago. */
 
