@@ -38,23 +38,34 @@ CHOICE: Not-AI AI help app.
 |----------|----------|-------------|------|
 |ChatGPT| ChatGPT was the first of the major AI firms, and their design reflects that somewhat.They were the originator of the AI question design, with a simple statement then a textbox for the starting query. Their design is relatively utilitarian, all buttons and points are clear, and little space is left unused without consideration. | ChatGPT has little flair, and entirely in black and white, is designed for a singular purpose. No space is left for decoration or much else of interest.  | ChatGPT is a classic artificial intelligence application, and to replicate this design would be wise to assist with fulfilling my requirements, at the same time I want to avoid the blandness of chatgpt, adding a more human centred look to my human centred design. |
 |Gemini| Gemini did not let me into it's actual chat area, so the homepage will have to suffice. The design is simple, not overcrowded and it displays the marketing efforts gemini has been undertakening perfectly. | Gemini lacks in the design flair again. Everything is black and white, colour only pops from the logo and from the various rotating images on slideshow, advertising a service the user has already entered.|Again, Gemini provides a useful basis for the type of modern, corporate aesthetic I'm looking to follow for my UI, but it falls down in having any meaningful information areas that I can use.|
-|Claude| col 3 is | right-aligned |    $1 |
-
+|Betoota Advocate| Comedy is subjective, but generally, I would consider the Betoota Advocate a funny outlet for news. It's this genre of satire comedy I wish to recreate with my application. The website itself is well organised and simple, a drawn back design based on a dual colour scheme. Writing is generally short and punchy, and focuses on packing "news stories" with as many jokes as possible, often self-referrential and developed around general societal trends and changes.| The Betoota Advocate's website, though not dated, is getting around to being older, and it sits far from my vision for my project, an entirelydifferent type of website to the one I aim to create. | The Betoota Advocate is perfect to inform the content, not design, of my webpage. The social commentary based on a deep level of satire provides the breadth of discussion that I aim to build my website around.|
 ## **Secondary Research**
 Research information using data from at least 2-3 reputable sources.
 
 Discuss your findings in two paragraphs or more and consider how they impact your project moving forward.
 
 ## **Primary Research**
-Conduct primary research into your topic. Consider your target market and gather information through surveys, questionnaires and/or interviews. Make sure to include questions to gather quantitative and qualitative data.
+I interviewed a grand total of 15 people for this assignment. Ranging in age from the elderly to children as young as a decade old, I attempt to get a general range of experiences from which I could learn about general opinions on AI in Australia. My full notes are sitting on a note app I can't access, but my general points remain the same.
 
-Organise your data (e.g. quantitative into spreadsheet / qualitative into .md file)
+- Everyone, young and old, was struggling more and more with identifying more modern AI in images. Of the 5 early AI (2023-2024) images I displayed, 95% were identified as AI. When it came to more modern images I created in early 2026, I found that only 30% were identified as AI. In addition, when compared with modern AI, a number of false positives, when people believed a real image to be AI, jumped drastically after I provided feedback on which images had and hadn't been AI.
 
-Evaluate your findings and consider how it impacts your project moving forward.
+- Especially in the older generations, 40+ being the cutoff point, AI generated text, compared to normal text, seemed to be less easy to identify. I didn't make use of early and later models of text, and models develop extremely quickly and adapt with the material they take in. I did however, find that 40+ year olds had a success rate of about 50% identifying AI text, whereas under 40s ranged from a success rate of 80% at the highest, to 40% at the lowest.
+
+- Generally, older people were more likely to consider AI a "positive" or especially when prompted, a "gimmick" whereas younger people were a lot more likely to express negative feelings towards AI, and especially towards the expansion of AI further.
+
+- The majority of participants stated that they used AI on the regular, though out of this group, only a minority would seek out AI advice, the others consuming from implicit artificial intelligence, like Google's search assistant.
+
+This points, for the project, towards the fact that the majority of Artificial Intelligence use comes less from a pointed goal to make use of AI, but rather from the current state of AI being so integrated into society, users don't have choices when it comes to taking their information from any modern mainstream search engines for any questions. 
 
 ## **UI / UX Design**
-Generate and evaluate alternative designs using website wireframes and webpage storyboards. You may do this on paper or using Adobe XD / Figma.
+![Thanks Oscar](./images/wireframez3.png)
 
 ## **Prototype**
-Create a prototype of at least your home page and one another page from your website using Figma, Adobe XD or a web content management system (CMS).
 
+https://www.figma.com/proto/dWH1NY8WUFl41OTREsXD8v/10CT-Tasktuah-%22Figma%22?node-id=4-40&t=VGFcwPERP3JODbpV-1 
+
+# **Testing and Evaluating**
+
+## **Project Evaluation**
+
+I believe I have succeed in the goals I laid out for my project thusfar, and have developed a application well poised to project positive influence combatting the 
