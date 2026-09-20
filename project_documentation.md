@@ -68,6 +68,33 @@ https://www.figma.com/proto/dWH1NY8WUFl41OTREsXD8v/10CT-Tasktuah-%22Figma%22?nod
 
 # **Testing and Evaluating**
 
+## **Peer Evaluations**
+
+### Peer Eval 1.
+- brown and green colours don't look very good together or provide strong contrast
+- font spacing is very large and actually difficult to read
+- website is very humorous but provides little functionality or positive influence
+- you didn't do geography in year 8
+- provides good information about why generative AI is a bad thing
+- not the most visually appealing website
+ - Fraser Maple
+
+### Peer Eval 2.
+
+UX: 7/10
+Navigation bar is clear and uses a standard layout. The addition of swapping the current page in the navigation bar with the Home page is very well though out and significantly improves UX. The main issue is that you cannot actually use the LLM as you can't type into "querity here..." but we will ignore that
+
+Aesthetics: 2/10
+Letter spacing is broken for me for the titles probably because you used rem ? makes text awkward to read as they become too  s p a c e d  out. The colour palette of green and brown is probably the worst possible choice conceivable but that might be my opinion. Why is the font for the navigation different from the main content (likely because the font-family class applied only to main and not header ?)
+
+Accuracy: 0/10
+Your LLM does not work so I can't really say anything about how accurate any information it presents
+
+Influence: 7/10
+Assuming that this actually did work then it would be a very good idea as it would make a funny way to replace AI and make some people stop asking it for everything.
+ - William Kim
+
+
 ## **Project Evaluation**
 
 I believe I have succeed in the goals I laid out for my project, and have developed a application well poised to project positive influence on the usage of AI. I do feel a little let down by my own time management ability, and having obviously left the entire project to my last minute, I have been unable to add certain things I wished to. I do however, still find myself laughing at the silly jokes I have made myself, and I think if placed towards a consumer-base like myself, it would be mildly successful at least. Functionality wise I have failed to "act" like an AI, but it was an extremely foward thinking design, and I think even with optimal time management, I will have struggled to deliver, I have succeeded in all of my other requirements, and fulfilled them to, or beyond, my expected wishes. In addiiton, my website, especially the about section, well illustrates and pushes users, initially intrigued, towards a more positive and healthy usage of AI in future.
